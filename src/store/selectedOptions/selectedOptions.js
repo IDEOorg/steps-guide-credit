@@ -6,10 +6,11 @@ export const MARK_TRIED = 'MARK_TRIED';
 export const ADD_TRIED_BACK = 'ADD_TRIED_BACK';
 export const TOGGLE_OPTION = 'TOGGLE_OPTION';
 
-export function generateOptions(cards) {
+export function generateOptions(cards, statement) {
   return {
     type: GENERATE_OPTIONS,
-    cards
+    cards,
+    statement
   };
 }
 
@@ -40,18 +41,11 @@ export function toggleOption(id) {
   };
 }
 
-function getDistinctOptionsFromCards(cards) {
+function getDistinctOptionsFromCards(cards, statement) {
   let distinctOptionIds = [];
   for(let i = 0; i < cards.length; i++) {
     let cardId = cards[i].id;
-    let selectedChoice = cards[i].selectedChoice;
-    let optionIds = null;
-    if(selectedChoice) {
-      optionIds = cardsData[cardId].choices[selectedChoice].options;
-    }
-    else {
-      optionIds = cardsData[cardId].options;
-    }
+    let optionIds = cardsData[statement]["cards"][cardId].options;
     for(let j = 0; j < optionIds.length; j++) {
       let optionId = optionIds[j];
       if(!distinctOptionIds.includes(optionId)) {
@@ -73,6 +67,9 @@ const selectedOptions = (state = {}, action) => {
   switch (action.type) {
     case GENERATE_OPTIONS: {
       let cards = action.cards;
+      const statement = action.statement;
+      console.log(cards);
+      console.log('HOUSE OF CARDS');
       let distinctOptionIds = [];
       if(getCardFromCards(cards, "5") && getCardFromCards(cards, "6")) {
         distinctOptionIds = ["9"];
@@ -84,20 +81,21 @@ const selectedOptions = (state = {}, action) => {
         distinctOptionIds = ["4"];
       }
       else if(getCardFromCards(cards, "1")) {
-        distinctOptionIds = getDistinctOptionsFromCards([getCardFromCards(cards, "1")]);
+        distinctOptionIds = getDistinctOptionsFromCards([getCardFromCards(cards, "1")], statement);
       }
       else if(getCardFromCards(cards, "5")) {
-        distinctOptionIds = getDistinctOptionsFromCards([getCardFromCards(cards, "5")]);
+        distinctOptionIds = getDistinctOptionsFromCards([getCardFromCards(cards, "5")], statement);
       }
       else if(getCardFromCards(cards, "6")) {
-        distinctOptionIds = getDistinctOptionsFromCards([getCardFromCards(cards, "6")]);
+        distinctOptionIds = getDistinctOptionsFromCards([getCardFromCards(cards, "6")], statement);
       }
       else {
-        distinctOptionIds = getDistinctOptionsFromCards(cards);
+        distinctOptionIds = getDistinctOptionsFromCards(cards, statement);
         if(distinctOptionIds.length === 0) {
           distinctOptionIds = ["1", "2", "3", "4"];
         }
       }
+      console.log(distinctOptionIds);
       let distinctOptions = distinctOptionIds.map((id) => {
         return {
           id,

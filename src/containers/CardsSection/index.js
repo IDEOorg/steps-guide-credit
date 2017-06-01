@@ -5,8 +5,7 @@ import { push } from 'react-router-redux';
 import './index.less';
 import Card from '../../components/Card';
 import Button from '../../components/Button';
-import cardsData from '../../data/cards';
-import { selectCard, selectChoice } from '../../store/cards/cards';
+import { selectCard } from '../../store/cards/cards';
 import { generateOptions } from '../../store/selectedOptions/selectedOptions';
 
 const CardsSection = (props) => {
@@ -19,10 +18,7 @@ const CardsSection = (props) => {
         selected={card.selected}
         onSelect={() => {
           props.onSelect(card.id);
-        }}
-        onChoiceSelect={card.selected ? props.onChoiceSelect : null}
-        choices={cardsData[card.id].choices ? cardsData[card.id].choices : null}
-        selectedChoice={card.selectedChoice ? card.selectedChoice : null}/>
+        }}/>
     );
   });
   const selectedCards = props.cards
@@ -30,9 +26,9 @@ const CardsSection = (props) => {
   .map((card) => {
     return {
       id: card.id,
-      selectedChoice: card.selectedChoice ? card.selectedChoice : null
     };
   });
+  console.log(props);
   return (
     <div className="cards_page">
       <div className="cards_section">
@@ -42,8 +38,8 @@ const CardsSection = (props) => {
         <Button
           textStyleClass="show_options_button_text"
           className="show_options_button"
-          onClick={() => props.onSubmit(selectedCards)}>
-          Show me my options
+          onClick={() => props.onSubmit(selectedCards, props.url)}>
+          Tell me my options
         </Button>
       </div>
     </div>
@@ -59,10 +55,9 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     onSelect: (id) => dispatch(selectCard(id)),
-    onChoiceSelect: (cardId, choiceId) => dispatch(selectChoice(cardId, choiceId)),
-    onSubmit: (cards) => {
-      dispatch(push('/options'));
-      dispatch(generateOptions(cards));
+    onSubmit: (cards, url) => {
+      dispatch(push('/statements/' + url + '/options'));
+      dispatch(generateOptions(cards, url));
     }
   };
 }
@@ -74,9 +69,9 @@ export default connect(
 
 CardsSection.propTypes = {
   cards: PropTypes.arrayOf(PropTypes.instanceOf(Card)).isRequired,
-  onChoiceSelect: PropTypes.func,
   onSelect: PropTypes.func.isRequired,
-  onSubmit: PropTypes.func.isRequired
+  onSubmit: PropTypes.func.isRequired,
+  url: PropTypes.string
 };
 
 CardsSection.displayName = 'CardsSection';

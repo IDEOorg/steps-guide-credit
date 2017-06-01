@@ -1,12 +1,13 @@
-import cardsData from '../data/cards';
+// import cardsData from '../data/cards';
+import problemsData from '../data/problems';
 
 const initialState = {
-  cards: Object.keys(cardsData).map((id) => {
+  cards: [],
+  problems: Object.keys(problemsData).map((id) => {
     return {
       id,
-      text: cardsData[id].text,
-      selected: false,
-      selectedChoice: cardsData[id].choices ? Object.keys(cardsData[id].choices)[0] : null
+      text: problemsData[id].text,
+      url: problemsData[id].url
     };
   }),
   selectedOptions: {

@@ -4,6 +4,7 @@ import './index.less';
 import Header from '../../components/Header';
 
 const App = (props) => {
+  window.scrollTo(0, 0);
   return (
     <div className="app">
       <Header />

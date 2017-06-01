@@ -1,5 +1,6 @@
+import cardsData from '../../data/cards';
 export const SELECT_CARD = 'SELECT_CARD';
-export const SELECT_CHOICE = 'SELECT_CHOICE';
+export const GENERATE_CARDS = 'GENERATE_CARDS';
 
 export function selectCard(id) {
   return {
@@ -8,11 +9,10 @@ export function selectCard(id) {
   };
 }
 
-export function selectChoice(cardId, choiceId) {
+export function generateCards(problemId) {
   return {
-    type: SELECT_CHOICE,
-    cardId,
-    choiceId
+    type: GENERATE_CARDS,
+    problemId
   };
 }
 
@@ -29,17 +29,19 @@ const cards = (state = [], action) => {
           selected: !c.selected
         };
       });
-    case SELECT_CHOICE:
-      return state.map((c) => {
-        if (c.id !== action.cardId) {
-          return c;
-        }
-
-        return {
-          ...c,
-          selectedChoice: action.choiceId
-        };
-      });
+    case GENERATE_CARDS: {
+      let cards = cardsData[action.problemId];
+      if(cards) {
+        return Object.keys(cards["cards"]).map((key) => {
+          return {
+            id: key,
+            selected: false,
+            text: cards["cards"][key]["text"]
+          };
+        });
+      }
+      return [];  
+    }
     default:
       return state;
   }

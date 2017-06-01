@@ -1,0 +1,239 @@
+{
+  "1": {
+    "text": "Talk to your landlord",
+    "actions": [
+      {
+        "id": "1",
+        "img": "talktolandlord-icon-1.svg",
+        "headline": "Get in touch ASAP",
+        "text": "Taking the initiative to contact your landlord will help build trust and allow your landlord to make plans on their end."
+      },
+      {
+        "id": "2",
+        "img": "talktolandlord-icon-2.png",
+        "headline": "Make yourself available",
+        "text": "Answer any calls, emails, or texts from your landlord as soon as you get them. Being responsive respects their time and lets them know you aren't going to disappear."
+      },
+      {
+        "id": "3",
+        "img": "talktolandlord-icon-3.svg",
+        "headline": "Offer another solution",
+        "text": "Suggesting a temporary, alternate solution such as a partial payment or a payment plan is a sign of good faith and lets your landlord know you eventually intend to pay."
+      },
+      {
+        "id": "4",
+        "img": "talktolandlord-icon-4.svg",
+        "headline": "Apologize, but no excuses",
+        "text": "It may help to explain your situation if it's an emergency, but only if it leads to finding a viable payment solution."
+      }
+    ]
+  },
+  "2": {
+    "text": "Get utility assistance",
+    "actions": [
+      {
+        "id": "1",
+        "img": "utility-icon-1.svg",
+        "headline": "Call your utility provider",
+        "text": "Most utility companies have programs that can help people in need with their bills, including creating a payment plan."
+      },
+      {
+        "id": "2",
+        "img": "utility-icon-2.svg",
+        "headline": "Find government assistance",
+        "text": "Many state and local government agencies have alternative assistance programs for utilities. Find out more here:",
+        "link": {
+          "text": "GO TO UTILITYBILLASSISTANCE.COM",
+          "url": "http://www.utilitybillassistance.com"
+        }
+      },
+      {
+        "id": "3",
+        "img": "utility-icon-3.svg",
+        "headline": "Apply for LIHEAP",
+        "text": "Assistance is available through the federal Low-Income Home Energy Assistance Program (each state has their own set of qualifications).",
+        "criteria": {
+          "criteria": [
+            "Residents with very young children, elderly, or disabled family members.",
+            "Homes with low-incomes and high regional costs."
+          ],
+          "link": {
+            "text": "FIND YOUR STATE'S CONTACT INFORMATION",
+            "url": "https://liheapch.acf.hhs.gov/db/index.php"
+          }
+        }
+      }
+    ]
+  },
+  "3": {
+    "text": "Get emergency money",
+    "actions": [
+      {
+        "id": "1",
+        "img": "charity-icon-1.svg",
+        "headline": "Contact your local 2-1-1",
+        "text": "They can connect you with resources related to housing (availability varies by location).",
+        "zipcode": {
+          "link": {
+            "text": "FIND YOUR LOCAL 2-1-1",
+            "urlTemplateStart": "http://211.org/search?zip=",
+            "urlTemplateEnd": "&city=&state="
+          }
+        }
+      },
+      {
+        "id": "2",
+        "img": "charity-icon-2.svg",
+        "headline": "Find a Catholic Charities agency",
+        "text": "They can help you with services related to housing (availability varies by location).",
+        "zipcode": {
+          "link": {
+            "text": "FIND YOUR LOCAL CATHOLIC CHARITIES",
+            "urlTemplateStart": "https://catholiccharitiesusa.org/find-help?near=",
+            "urlTemplateEnd": "#results"
+
+          }
+        }
+      },
+      {
+        "id": "3",
+        "img": "charity-icon-3.png",
+        "headline": "Apply for a Modest Needs grant",
+        "text": "These small, emergency grants are allocated to low-income workers. Find out more by visiting their website.",
+        "link": {
+          "text": "GO TO MODESTNEEDS.ORG",
+          "url": "https://modestneeds.org"
+        }
+      }
+    ]
+  },
+  "4": {
+    "text": "Find personalized advice",
+    "actions": [
+      {
+        "id": "1",
+        "img": "advice-icon-1.svg",
+        "headline": "Talk to a counselor",
+        "text": "If you won't be able to pay your rent for a while, the best thing you can do right now is get personalized advice from a counselor.",
+        "link": {
+          "text": "FIND A HOUSING COUNSELOR NEAR YOU",
+          "url": "https://www.consumerfinance.gov/find-a-housing-counselor/"
+        }
+      }
+    ]
+  },
+  "5": {
+    "text": "Start your savings",
+    "actions": [
+      {
+        "id": "1",
+        "img": "savings-icon-1.svg",
+        "headline": "Open a savings account",
+        "text": "Savings can give you a cushion for future crises. Having a goal and timeline in mind when you open your account can give you the motivation to get started."
+      },
+      {
+        "id": "2",
+        "img": "savings-icon-2.svg",
+        "headline": "Start with a dollar today",
+        "text": "Savings is a long-term game and by getting started with something small, as soon as possible, you can set yourself up for future success."
+      },
+      {
+        "id": "3",
+        "img": "savings-icon-3.svg",
+        "headline": "Set up an automatic withdrawal",
+        "text": "Automati withdrawl makes saving easier by not having to think about it. Decide on an amount that works for you, even if it's $10 a month."
+      },
+      {
+        "id": "4",
+        "img": "savings-icon-4.svg",
+        "headline": "Find a savings buddy",
+        "text": "Having a partner can help you stay on track. Use this person to help you stay motivated, when you're tempted, or if it feels really hard. We all need support once in a while."
+      }
+    ]
+  },
+  "6": {
+    "text": "Get legal help",
+    "actions": [
+      {
+        "id": "1",
+        "img": "legal-icon-1.svg",
+        "headline": "Save the documents and seek help",
+        "text": "Save all documents and seek help immediately. Save all notics and communications from your landlord, any lawyers, or courts. Understand the eviction process, your rights, and your options by speaking with a Legal Aid attorney.",
+        "link": {
+          "text": "FIND LEGAL HELP NEAR YOU NOW",
+          "url": "http://www.lawhelp.org/find-help"
+        }
+      }
+    ]
+  },
+  "7": {
+    "text": "File for unemployment",
+    "actions": [
+      {
+        "id": "1",
+        "img": "unemployment-icon-1.svg",
+        "headline": "Apply for unemployment benefits",
+        "text": "It's important to file as soon as possible as application processing, approval and first payment can take a few weeks.",
+        "link": {
+          "text": "FIND UNEMPLOYMENT BENEFITS",
+          "url": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx"
+        }
+      }
+    ]
+  },
+  "8": {
+    "text": "See if you qualify for any government benefits",
+    "actions": [
+      {
+        "id": "1",
+        "img": "benefits-icon-1.svg",
+        "headline": "Take the Benefits assessment",
+        "text": "Government benefits can assist with a variety of costs from food to health coverage. Even if you can't get help directly with your rent, you may find you qualify for something that frees up money to help put towards your rent.",
+        "link": {
+          "text": "GO TO BENEFITS.GOV",
+          "url": "https://www.benefits.gov"
+        }
+      }
+    ]
+  },
+  "9": {
+    "text": "Get help immediately",
+    "actions": [
+      {
+        "id": "1",
+        "img": "legal-icon-1.svg",
+        "headline": "Save the documents and seek help",
+        "text": "Save all documents and seek help immediately. Save all notics and communications from your landlord, any lawyers, or courts. Understand the eviction process, your rights, and your options by speaking with a Legal Aid attorney.",
+        "link": {
+          "text": "FIND LEGAL HELP NEAR YOU NOW",
+          "url": "http://www.lawhelp.org/find-help"
+        }
+      },
+      {
+        "id": "1",
+        "img": "advice-icon-1.svg",
+        "headline": "Talk to a counselor",
+        "text": "If you won't be able to pay your rent for a while, the best thing you can do right now is get personalized advice from a counselor.",
+        "link": {
+          "text": "FIND A HOUSING COUNSELOR NEAR YOU",
+          "url": "https://www.consumerfinance.gov/find-a-housing-counselor/"
+        }
+      }
+    ]
+  },
+  "10": {
+    "text": "Already tried everything?",
+    "actions": [
+      {
+        "id": "1",
+        "img": "advice-icon-1.svg",
+        "headline": "Try talking to a counselor again",
+        "text": "If you won't be able to pay your rent for a while, the best thing you can do right now is get personalized advice from a counselor.",
+        "link": {
+          "text": "FIND A HOUSING COUNSELOR NEAR YOU",
+          "url": "https://www.consumerfinance.gov/find-a-housing-counselor/"
+        }
+      }
+    ]
+  }
+}

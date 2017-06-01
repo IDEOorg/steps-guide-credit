@@ -1,0 +1,36 @@
+{
+  "1": {
+    "text": "I recently lost my income",
+    "options": ["7", "3", "8", "4"]
+  },
+  "2": {
+    "text": "I've missed paying rent in the past",
+    "choices": {
+      "1": {
+        "text": "JUST ONCE?",
+        "options": ["1", "2", "3", "4"]
+      },
+      "2": {
+        "text": "TWICE OR MORE?",
+        "options": ["2", "3", "4"]
+      }
+    },
+    "options": ["1", "2", "3", "4"]
+  },
+  "3": {
+    "text": "I can't pay my utilities",
+    "options": ["1", "2", "3", "4"]
+  },
+  "4": {
+    "text": "I don't have any money saved",
+    "options": ["1", "2", "3", "4", "5"]
+  },
+  "5": {
+    "text": "I won't be able to pay my rent for a while",
+    "options": ["4"]
+  },
+  "6": {
+    "text": "I'm getting eviction notices",
+    "options": ["6", "4"]
+  }
+}

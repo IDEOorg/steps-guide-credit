@@ -58,6 +58,7 @@ class OptionsPage extends Component {
     }
   }
   render() {
+    console.log(this.props);
     const currentOption = this.props.currentOption;
     const filteredOptions = this.props.options.filter((option) => !option.tried);
 
@@ -143,7 +144,7 @@ class OptionsPage extends Component {
         <MediaQuery query="(min-width: 600px)">
           <div className="options_page">
             <div className="options_section">
-              <OptionsIntro goBack={this.props.goBack} />
+              <OptionsIntro goBack={() => this.props.goBack(this.props.params.statement)} />
               {options}
               <TriedOptions />
             </div>
@@ -157,7 +158,7 @@ class OptionsPage extends Component {
         </MediaQuery>
         <MediaQuery query="(max-width: 600px)">
           <div className="options_page">
-            <OptionsIntro goBack={this.props.goBack} />
+            <OptionsIntro goBack={() => this.props.goBack(this.props.params.statement)} />
             { optionsActionsOutputMobile }
             <TriedOptions />
           </div>
@@ -176,7 +177,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    goBack: () => dispatch(push('/')),
+    goBack: (statement) => dispatch(push('/statements/' + statement)),
     onSelect: (id) => dispatch(selectOption(id)),
     markTried: (id) => dispatch(markTried(id)),
     toggleOption: (id) => dispatch(toggleOption(id))

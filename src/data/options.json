@@ -4,10 +4,10 @@
     "actions": [
       {
         "id": "1",
-        "img": "talktolandlord-icon-1.svg",
+        "img": "credit-nfcc-icon.svg",
         "headline": "Talk to a NFCC Certified Credit Counselor",
         "text": "If you can't pay your blls on time consistently each month, then you may want to get personalized advice from a counselor",
-        "addendumImg": "talktolandlord-icon-1.svg",
+        "addendumImg": "credit-payment-history-icon.svg",
         "addendumText": "The biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are."
       }
     ]
@@ -20,7 +20,7 @@
         "img": null,
         "headline": null,
         "text": null,
-        "addendumImg": "talktolandlord-icon-1.svg",
+        "addendumImg": "credit-goodjob-icon.svg",
         "addendumText": "Paying your credit bills on time, consistently each month is no small feat. Payment history accounts for the majority of your credit score so keep up the good work."
       }
     ]
@@ -30,19 +30,19 @@
     "actions": [
       {
         "id": "1",
-        "img": "charity-icon-1.svg",
+        "img": "credit-owed-icon.svg",
         "headline": "Credit owed",
         "text": "Another huge factor that affects your credit score is how much your available credit you actually use between all your card, which is also known as credit utilization.\nExample: Your credit card has a $1000 limit. You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%."
       },
       {
         "id": "2",
-        "img": "charity-icon-2.svg",
+        "img": "credit-avalanche-icon.svg",
         "headline": "Avalanche or snowball method",
         "text": "These two different prioritization strategies can help you tackle down debt. Remember to always pay the minimum amount on your accounts.\nThe avalanche method focuses on putting any extra money on the highest interest balance you owe which often saves you money and time.\nThe snowball method focuses on putting any extra money on the smallest balance you owe. It's builds confidence and gives you a psychological boost that you can pay off your debts."
       },
       {
         "id": "3",
-        "img": "charity-icon-3.png",
+        "img": "credit-raise-icon.svg",
         "headline": "Raise your credit limit",
         "text": "This might seem counterintuitive but raising your credit limit while keeping your utilization below 30% can improve your credit score."
       }
@@ -53,17 +53,17 @@
     "actions": [
       {
         "id": "1",
-        "img": "advice-icon-1.svg",
-        "headline": "Talk to a counselor",
+        "img": "nerdwallet-logo.svg",
+        "headline": "Get your free credit score at NerdWallet",
         "text": "Your credit score is a three-digit number based on your credit report. Most of your credit score is based on how you pay it off (payment history) and on how much you borrow (credit owed).",
         "link": {
-          "text": "FIND A HOUSING COUNSELOR NEAR YOU",
-          "url": "https://www.consumerfinance.gov/find-a-housing-counselor/"
+          "text": "NERDWALLET.COM",
+          "url": "https://www.nerdwallet.com/home/dashboard/credit-score"
         }
       },
       {
         "id": "2",
-        "img": "charity-icon-2.svg",
+        "img": "credit-bank-icon.svg",
         "headline": "Find a Bank or Credit Union that provides free FICO scores",
         "text": "The Consumer Financial Protection Bureau has a great list of companies that provide free access to credit scores (although you might need to sign up for an account of some kind).",
         "link": {
@@ -78,7 +78,7 @@
     "actions": [
       {
         "id": "1",
-        "img": "savings-icon-1.svg",
+        "img": "credit-ecoa-icon.svg",
         "headline": "Make a request to your lenders under the Equal Credit Opportunity Act",
         "text": "Under the Equal Credit Opportunity Act, lenders are required to provide written documentation as to why you were denied for a loan."
       }
@@ -89,13 +89,13 @@
     "actions": [
       {
         "id": "1",
-        "img": "legal-icon-1.svg",
+        "img": "credit-card-icon.svg",
         "headline": "Apply for a secured credit card",
         "text": "A secured credit card gives you access to credit by first putting down a cash deposit that matches your credit. This reduces the risk to a credit card issuer. Using the card responsibly can eventually give you access to an unsecured card i.e. one that doesn't require a deposit and shows a healthy history of financial habits."
       },
       {
         "id": "2",
-        "img": "savings-icon-1.svg",
+        "img": "credit-cosigner-icon.svg",
         "headline": "Consider getting a co-signer",
         "text": "A co-signer someone who signs for a loan with you and is obligated to pay back the loan if you're unable to. A co-signer can help you meet lender requirements for credit and income and increases your chances of getting approved for a loan."
       }
@@ -106,7 +106,7 @@
     "actions": [
       {
         "id": "1",
-        "img": "unemployment-icon-1.svg",
+        "img": "credit-clipboard-icon.svg",
         "headline": "Get your free credit report at Annualcreditreport.com",
         "text": "Annualcreditreport.com is jointly operated by the three major credit reporting agencies, Equifax, Experian, and Transunion. Consumers are able to receive up to three free credit reports per year.",
         "link": {
@@ -116,19 +116,19 @@
       },
       {
         "id": "2",
-        "img": "unemployment-icon-1.svg",
+        "img": "credit-report-icon.svg",
         "headline": "Check your report for errors",
         "text": "Some common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors."
       },
       {
         "id": "3",
-        "img": "unemployment-icon-1.svg",
+        "img": "credit-dispute-icon.svg",
         "headline": "Dispute errors",
         "text": "Keep records of your correspondences and contact the relevant credit reporting agency to report any errors."
       },
       {
         "id": "4",
-        "img": "unemployment-icon-1.svg",
+        "img": "credit-45days-icon.svg",
         "headline": "Follow up if you don't hear anything after 45 days",
         "text": "It usually takes credit unions 30 to 45 days to process disputes. If you haven't heard from them by day 45, be sure to follow up with them."
       }
@@ -139,7 +139,7 @@
     "actions": [
       {
         "id": "1",
-        "img": "benefits-icon-1.svg",
+        "img": "nerdwallet-logo.svg",
         "headline": "Use NerdWallet's credit simulator",
         "text": "A credit simulator can help you understand how financial decisions impact your credit score.",
         "link": {

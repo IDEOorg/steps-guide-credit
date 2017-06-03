@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.less';
 import CardsSection from '../CardsSection';
-const introImg = require('../../assets/city-scene.svg');
+const introImg = require('../../assets/credit-scene.svg');
 
 const StatementsPage = (props) => {
   return (

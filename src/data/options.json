@@ -7,8 +7,10 @@
         "img": "credit-nfcc-icon.svg",
         "headline": "Talk to a NFCC Certified Credit Counselor",
         "text": "If you can't pay your blls on time consistently each month, then you may want to get personalized advice from a counselor",
-        "addendumImg": "credit-payment-history-icon.svg",
-        "addendumText": "The biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are."
+        "addendum": {
+          "addendumImg": "credit-payment-history-icon.svg",
+          "addendumText": "The biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are."
+        }
       }
     ]
   },
@@ -20,8 +22,10 @@
         "img": null,
         "headline": null,
         "text": null,
-        "addendumImg": "credit-goodjob-icon.svg",
-        "addendumText": "Paying your credit bills on time, consistently each month is no small feat. Payment history accounts for the majority of your credit score so keep up the good work."
+        "addendum": {
+          "addendumImg": "credit-goodjob-icon.svg",
+          "addendumText": "Paying your credit bills on time, consistently each month is no small feat. Payment history accounts for the majority of your credit score so keep up the good work."
+        }
       }
     ]
   },
@@ -53,16 +57,22 @@
     "actions": [
       {
         "id": "1",
+        "img": "credit-bubbleplot-icon.svg",
+        "headline": null,
+        "text": "Your credit score is a three-digit number based on your credit report. Most of your credit score is based on you paying your bills on time (payment history) and how much you borrow and owe (credit utilization). The first step to to improving your score is by understanding where you are and where to focus you efforts on. Check your credit score for free at these places:"
+      },
+      {
+        "id": "2",
         "img": "nerdwallet-logo.svg",
         "headline": "Get your free credit score at NerdWallet",
-        "text": "Your credit score is a three-digit number based on your credit report. Most of your credit score is based on how you pay it off (payment history) and on how much you borrow (credit owed).",
+        "text": "Get your latest score every week at no cost to you. Set your credit goals and see your progress. Signing up won’t affect your score at all.",
         "link": {
           "text": "NERDWALLET.COM",
           "url": "https://www.nerdwallet.com/home/dashboard/credit-score"
         }
       },
       {
-        "id": "2",
+        "id": "3",
         "img": "credit-bank-icon.svg",
         "headline": "Find a Bank or Credit Union that provides free FICO scores",
         "text": "The Consumer Financial Protection Bureau has a great list of companies that provide free access to credit scores (although you might need to sign up for an account of some kind).",

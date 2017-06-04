@@ -4,6 +4,7 @@ import Action from '../Action';
 import Button from '../Button';
 import ZipcodeBox from '../ZipcodeBox';
 import CriteriaBox from '../CriteriaBox';
+import AddendumBox from '../AddendumBox';
 import UrlImage from '../UrlImage';
 import classNames from 'classnames';
 import './index.less';
@@ -39,6 +40,13 @@ const ActionPlan = (props) => {
         urlStart={action.zipcode.link.urlTemplateStart}
         urlEnd={action.zipcode.link.urlTemplateEnd}
         buttonText={action.zipcode.link.text}/>);
+    }
+    else if(action.addendum) {
+      actionItem = (<AddendumBox
+        img={require('../../assets/' + action.addendum.addendumImg)}
+        text={action.addendum.addendumText}
+        />
+      );
     }
     else {
       actionItem = null;

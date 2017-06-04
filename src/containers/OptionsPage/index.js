@@ -162,6 +162,8 @@ class OptionsPage extends Component {
         <MediaQuery query="(max-width: 600px)">
           <div className="options_page">
             <OptionsIntro
+              headlineText="What can you do?"
+              goBackText="Back to statements"
               goBack={() => this.props.goBack(this.props.params.statement)} />
             { optionsActionsOutputMobile }
             <TriedOptions />

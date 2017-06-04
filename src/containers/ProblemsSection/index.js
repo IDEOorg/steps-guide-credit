@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 import './index.less';
 import Card from '../../components/Card';
+import ProgressBar from '../../components/ProgressBar';
 import { generateCards } from '../../store/cards/cards';
 
 const ProblemsSection = (props) => {
@@ -13,6 +14,7 @@ const ProblemsSection = (props) => {
         key={problem.id}
         id={problem.id}
         text={problem.text}
+        hideIcon={true}
         onSelect={() => {
           props.onSelect(problem.url);
         }}/>
@@ -20,6 +22,7 @@ const ProblemsSection = (props) => {
   });
   return (
     <div className="problems_page">
+      <ProgressBar count={1} instructionText="Step 1: Choose your most pressing problem" />
       <div className="problems_section">
         {problems}
       </div>

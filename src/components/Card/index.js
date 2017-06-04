@@ -39,6 +39,11 @@ const Card = (props) => {
     cardBoxClass = "card_unselected";
   }
 
+  let addIcon = <img className={"card_add_icon"} src={require('../../assets/card-add-icon.svg')} />;;
+  if(props.hideIcon) {
+    addIcon = null;
+  }
+
   return (
     <div className={classNames("card_box", cardBoxClass)}>
       <div className={classNames("card", cardClass)}
@@ -47,7 +52,7 @@ const Card = (props) => {
           props.onSelect();
         }}
       >
-        <img className={"card_add_icon"} src={require('../../assets/card-add-icon.svg')} />
+        { addIcon }
         <h2>{props.text}</h2>
       </div>
       {choicesBox}

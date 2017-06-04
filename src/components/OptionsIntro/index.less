@@ -30,15 +30,25 @@
   letter-spacing: 0.01875em;
   width: 100%;
   text-align: center;
+  color: @base-blue;
   .mobile({
     order: 1;
-    color: fade(@text-color, 30%);
   });
   .desktop({
     order: 2;
-    color: @base-blue;
-    &:hover {
-      color: fade(@base-blue, 85%);
-    }
   });
+}
+
+.options_intro_back {
+  p {
+    color: @base-blue;
+    .mobile({
+      color: fade(@text-color, 30%);
+    });
+    .desktop({
+      &:hover {
+        color: fade(@base-blue, 85%);
+      }
+    });
+  }
 }

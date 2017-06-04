@@ -17,7 +17,14 @@
   },
   "house": {
     "text": "I wanted to buy a house",
-    "url": "house"
+    "url": "house",
+    "sidebarImg": "house-icon.svg",
+    "sidebarDescription": "If you were denied a mortgage, your credit might be the reason. Traditional lenders probably won't approve you if:",
+    "sidebarBullets": [
+      "Your credit score is too low",
+      "Your income may be insufficient",
+      "Youhave too much debt"
+    ]
   },
   "job": {
     "text": "I wanted to get a job",
@@ -33,7 +40,13 @@
   },
   "personal-loan": {
     "text": "I wanted to get a personal loan",
-    "url": "personal-loan"
+    "url": "personal-loan",
+    "sidebarImg": "personal-loan-icon.svg",
+    "sidebarDescription": "If you were denied for a personal loan, your credit might be the reason. Traditional lenders probably won’t approve you if:",
+    "sidebarBullets": [
+      "Your credit score is below 630",
+      "You don't have sufficient credit history"
+    ]
   },
   "car-insurance": {
     "text": "I wanted to buy car insurance",

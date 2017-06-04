@@ -3,35 +3,71 @@
     "cards": {
       "1": {
         "text": "I pay my credit bills on time, consistently each month",
-        "options": ["7", "3", "8", "4"]
+        "options": []
       },
       "2": {
         "text": "I have used a lot of my credit",
-        "options": ["1", "2", "3", "4"]
+        "options": []
       },
       "3": {
         "text": "I'm just getting started with credit",
-        "options": ["1", "2", "3", "4"]
+        "options": []
       },
       "4": {
         "text": "I don't know what my credit score is",
-        "options": ["1", "2", "3", "4", "5"]
+        "options": []
       },
       "5": {
         "text": "I have some kind of loan or mortgage",
-        "options": ["4"]
+        "options": []
       },
       "6": {
         "text": "I have some kind of credit card",
-        "options": ["6", "4"]
+        "options": []
       },
       "7": {
         "text": "I wasn't given an explanation as to why I wasn't approved",
-        "options": ["6", "4"]
+        "options": []
       },
       "8": {
         "text": "I haven't checked my credit report this year",
-        "options": ["6", "4"]
+        "options": []
+      }
+    }
+  },
+  "house": {
+    "cards": {
+      "1": {
+        "text": "I pay my credit bills on time, consistently each month",
+        "options": []
+      },
+      "2": {
+        "text": "I have used a lot of my credit",
+        "options": []
+      },
+      "3": {
+        "text": "I'm just getting started with credit",
+        "options": []
+      },
+      "4": {
+        "text": "I don't know what my credit score is",
+        "options": []
+      },
+      "5": {
+        "text": "I have some kind of loan or mortgage",
+        "options": []
+      },
+      "6": {
+        "text": "I have some kind of credit card",
+        "options": []
+      },
+      "7": {
+        "text": "I wasn't given an explanation as to why I wasn't approved",
+        "options": []
+      },
+      "8": {
+        "text": "I haven't checked my credit report this year",
+        "options": []
       }
     }
   }

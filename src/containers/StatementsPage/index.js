@@ -1,23 +1,53 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { push } from 'react-router-redux';
 import './index.less';
 import CardsSection from '../CardsSection';
-const introImg = require('../../assets/credit-scene.svg');
+import OptionsIntro from '../../components/OptionsIntro';
+import SidebarEducation from '../../components/SidebarEducation';
+import problemsData from '../../data/problems';
 
 const StatementsPage = (props) => {
+  let statement = props.params.statement;
+  let sidebarImg = require('../../assets/' + problemsData[statement].sidebarImg);
   return (
     <div className="main_page">
       <div className="intro_main_section">
-        <img className="intro_image" src={introImg}/>
-        <div className="intro_main_intro">
-          <h1 className="intro_headline">I Got Denied</h1>
-          <p className="intro_tagline">If you're having a hard time qualifying for a loan or getting an apartment you want, your credit could be to blame. But it's within your power to build your credit profile and unlock financial possibilities.</p>
-        </div>
+        <OptionsIntro
+          headlineText={problemsData[statement].text}
+          goBackText="Choose another problem"
+          goBack={() => {
+            props.goBack();
+          }}
+        />
+        <SidebarEducation
+          sidebarImg={sidebarImg}
+          sidebarDescription={problemsData[statement].sidebarDescription}
+          sidebarBullets={problemsData[statement].sidebarBullets}
+          />
       </div>
-      <CardsSection url={props.params.statement} />
+      <CardsSection url={statement}/>
     </div>
   );
 };
 
-export default StatementsPage;
+function mapStateToProps(state) {
+  return {
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    goBack: () => {
+      console.log('hey');
+      return dispatch(push('/'));
+    }
+  };
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(StatementsPage);
 
 StatementsPage.displayName = 'StatementsPage';

@@ -9,9 +9,11 @@ import classNames from 'classnames';
 import './index.less';
 
 const ActionPlan = (props) => {
+  console.log(props);
   let actionItem;
   let actions = props.actions.map((action) => {
     if(action.link) {
+      console.log(action);
       actionItem = (
         <Button
           onClick={() => { window.open(action.link.url); }}
@@ -38,8 +40,11 @@ const ActionPlan = (props) => {
         urlEnd={action.zipcode.link.urlTemplateEnd}
         buttonText={action.zipcode.link.text}/>);
     }
+    else {
+      actionItem = null;
+    }
     return (<Action key={action.id}
-        img={require('../../assets/' + action.img)}
+        img={action.img ? require('../../assets/' + action.img) : null}
         headline={action.headline}
         text={action.text}>
         {actionItem}

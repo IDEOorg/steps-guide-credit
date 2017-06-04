@@ -5,15 +5,24 @@ import { push } from 'react-router-redux';
 import './index.less';
 import Card from '../../components/Card';
 import Button from '../../components/Button';
+import ProgressBar from '../../components/ProgressBar';
 import { selectCard } from '../../store/cards/cards';
 import { generateOptions } from '../../store/selectedOptions/selectedOptions';
+import cardsData from '../../data/cards';
 
 const CardsSection = (props) => {
+  if(!props.cards) {
+    let newCardsData = cardsData[props.url].cards;
+    Object.keys(newCardsData).map((key) => {
+      return key;
+    });
+  }
   const cards = props.cards.map((card) => {
     return (
       <Card
         key={card.id}
         id={card.id}
+        hideIcon={props.hideIcon}
         text={card.text}
         selected={card.selected}
         onSelect={() => {
@@ -31,6 +40,7 @@ const CardsSection = (props) => {
   console.log(props);
   return (
     <div className="cards_page">
+      <ProgressBar count={2} instructionText="Step 2: Select all the statements below that apply to you." />
       <div className="cards_section">
         {cards}
       </div>
@@ -47,6 +57,7 @@ const CardsSection = (props) => {
 };
 
 function mapStateToProps(state) {
+  console.log(state);
   return {
     cards: state.cards
   };

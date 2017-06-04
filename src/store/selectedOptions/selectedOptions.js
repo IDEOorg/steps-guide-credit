@@ -74,7 +74,6 @@ const selectedOptions = (state = {}, action) => {
   switch (action.type) {
     case GENERATE_OPTIONS: {
       let cards = action.cards;
-      const statement = action.statement;
       console.log(cards);
       console.log('HOUSE OF CARDS');
       let distinctOptionIds = [];

@@ -1,5 +1,5 @@
-import selectedOptions, { GENERATE_OPTIONS, ADD_TRIED_BACK, MARK_TRIED } from './selectedOptions';
-import optionsData from '../../data/options';
+import selectedOptions, { ADD_TRIED_BACK, MARK_TRIED } from './selectedOptions';
+// import optionsData from '../../data/options';
 
 describe('selectedOptions reducer', () => {
   let initialState = {
@@ -77,51 +77,51 @@ describe('selectedOptions reducer', () => {
     ).toEqual("3");
   });
 
-  it('should generate the right options based on the selected cards in all cases', () => {
-    let generateOptions = (cards) => {
-      let state = {
-          currentOption: null,
-          options: []
-      };
-      let generatedOptions = selectedOptions(state, {
-        type: GENERATE_OPTIONS,
-        cards
-      }).options.map((option) => optionsData[option.id].text);
-      return generatedOptions;
-    };
-    let testOptions = (options, expectedOptions) => {
-      for(let i = 0; i < options.length; i++) {
-        expect(options[i]).toContain(expectedOptions[i]);
-      }
-    };
-
-    let generatedOptions = generateOptions([]);
-    testOptions(generatedOptions, ["your landlord", "utility assistance", "emergency money", "personalized advice"]);
-
-    generatedOptions = generateOptions([
-      { id: "1" },
-      { id: "6" }
-    ]);
-    testOptions(generatedOptions, ["legal help", "unemployment", "government benefits", "emergency money", "personalized advice"]);
-
-    generatedOptions = generateOptions([
-      { id: "5" },
-      { id: "6" }
-    ]);
-    testOptions(generatedOptions, ["help immediately"]);
-
-    generatedOptions = generateOptions([
-      { id: "1" },
-      { id: "5" },
-      { id: "4" }
-    ]);
-    testOptions(generatedOptions, ["personalized advice"]);
-
-    generatedOptions = generateOptions([
-      { id: "1" },
-      { id: "3" },
-      { id: "4" }
-    ]);
-    testOptions(generatedOptions, ["unemployment", "emergency money", "government benefits", "personalized advice"]);
-  });
+  // it('should generate the right options based on the selected cards in all cases', () => {
+  //   let generateOptions = (cards) => {
+  //     let state = {
+  //         currentOption: null,
+  //         options: []
+  //     };
+  //     let generatedOptions = selectedOptions(state, {
+  //       type: GENERATE_OPTIONS,
+  //       cards
+  //     }).options.map((option) => optionsData[option.id].text);
+  //     return generatedOptions;
+  //   };
+  //   let testOptions = (options, expectedOptions) => {
+  //     for(let i = 0; i < options.length; i++) {
+  //       expect(options[i]).toContain(expectedOptions[i]);
+  //     }
+  //   };
+  //
+  //   let generatedOptions = generateOptions([]);
+  //   testOptions(generatedOptions, ["your landlord", "utility assistance", "emergency money", "personalized advice"]);
+  //
+  //   generatedOptions = generateOptions([
+  //     { id: "1" },
+  //     { id: "6" }
+  //   ]);
+  //   testOptions(generatedOptions, ["legal help", "unemployment", "government benefits", "emergency money", "personalized advice"]);
+  //
+  //   generatedOptions = generateOptions([
+  //     { id: "5" },
+  //     { id: "6" }
+  //   ]);
+  //   testOptions(generatedOptions, ["help immediately"]);
+  //
+  //   generatedOptions = generateOptions([
+  //     { id: "1" },
+  //     { id: "5" },
+  //     { id: "4" }
+  //   ]);
+  //   testOptions(generatedOptions, ["personalized advice"]);
+  //
+  //   generatedOptions = generateOptions([
+  //     { id: "1" },
+  //     { id: "3" },
+  //     { id: "4" }
+  //   ]);
+  //   testOptions(generatedOptions, ["unemployment", "emergency money", "government benefits", "personalized advice"]);
+  // });
 });

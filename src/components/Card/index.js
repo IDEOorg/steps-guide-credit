@@ -39,7 +39,7 @@ const Card = (props) => {
     cardBoxClass = "card_unselected";
   }
 
-  let addIcon = <img className={"card_add_icon"} src={require('../../assets/card-add-icon.svg')} />;;
+  let addIcon = <img className={"card_add_icon"} src={require('../../assets/card-add-icon.svg')} />;
   if(props.hideIcon) {
     addIcon = null;
   }

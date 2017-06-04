@@ -31,7 +31,7 @@ const StatementsPage = (props) => {
   );
 };
 
-function mapStateToProps(state) {
+function mapStateToProps() {
   return {
   };
 }

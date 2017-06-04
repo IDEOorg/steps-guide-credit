@@ -36,13 +36,17 @@
         "id": "1",
         "img": "credit-owed-icon.svg",
         "headline": "Credit owed",
-        "text": "Another huge factor that affects your credit score is how much your available credit you actually use between all your card, which is also known as credit utilization.\nExample: Your credit card has a $1000 limit. You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%."
+        "text": "An important factor that affects your credit score is how much your available credit you actually use between all your card, which is also known as credit utilization.\nExample: Your credit card has a $1000 limit. You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%."
       },
       {
         "id": "2",
         "img": "credit-avalanche-icon.svg",
         "headline": "Avalanche or snowball method",
-        "text": "These two different prioritization strategies can help you tackle down debt. Remember to always pay the minimum amount on your accounts.\nThe avalanche method focuses on putting any extra money on the highest interest balance you owe which often saves you money and time.\nThe snowball method focuses on putting any extra money on the smallest balance you owe. It's builds confidence and gives you a psychological boost that you can pay off your debts."
+        "text": "These two different prioritization strategies can help you tackle down debt. Remember to always pay the minimum amount on your accounts.\nThe avalanche method focuses on putting any extra money on the highest interest balance you owe which often saves you money and time.\nThe snowball method focuses on putting any extra money on the smallest balance you owe. It's builds confidence and gives you a psychological boost that you can pay off your debts.",
+        "link": {
+          "text": "Which method is right for you?",
+          "url": "https://www.powerpay.org"
+        }
       },
       {
         "id": "3",

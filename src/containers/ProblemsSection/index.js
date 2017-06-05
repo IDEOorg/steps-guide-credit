@@ -16,7 +16,9 @@ const ProblemsSection = (props) => {
         text={problem.text}
         hideIcon={true}
         onSelect={() => {
-          props.onSelect(problem.url);
+          if(problem.url === 'house' || problem.url === 'personal-loan') {
+            props.onSelect(problem.url);
+          }
         }}/>
     );
   });

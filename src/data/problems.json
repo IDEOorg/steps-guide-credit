@@ -1,19 +1,46 @@
 {
   "car": {
     "text": "I wanted a car",
-    "url": "car"
+    "url": "car",
+    "sidebarImg": "",
+    "sidebarDescription": "If you were denied a loan for a car, your credit might be a reason. Traditional lenders probably won't approve you if:",
+    "sidebarBullets": [
+      "Your credit score may be too low",
+      "You may not have enough income to afford the car."
+    ]
   },
   "apartment": {
     "text": "I wanted to rent an apartment",
-    "url": "apartment"
+    "url": "apartment",
+    "sidebarImg": "",
+    "sidebarDescription": "If your apartment application was denied, your credit might be a reason. Traditional landlords probably won't approve you if:",
+    "sidebarBullets": [
+      "Your credit score is too low",
+      "You have an inconsistent payment history",
+      "You already have too much debt"
+    ]
   },
   "business": {
     "text": "I wanted to start my own business",
-    "url": "business"
+    "url": "business",
+    "sidebarImg": "",
+    "sidebarDescription": "If you were denied a loan to start your own business, your credit might be a reason. Traditional lenders probably won't approve you if:",
+    "sidebarBullets": [
+      "Your credit score is too low",
+      "You don't have sufficient cash flow",
+      "You already have too much debt"
+    ]
   },
   "school": {
     "text": "I wanted to go to school",
-    "url": "school"
+    "url": "school",
+    "sidebarImg": "",
+    "sidebarDescription": "If you were denied a student loan, your credit might be the reason. Traditional lenders probably won't approve you if:",
+    "sidebarBullets": [
+      "You don't have sufficient credit history",
+      "You credit score is too low",
+      "You don't have a co-signer"
+    ]
   },
   "house": {
     "text": "I wanted to buy a house",
@@ -28,15 +55,30 @@
   },
   "job": {
     "text": "I wanted to get a job",
-    "url": "job"
+    "url": "job",
+    "sidebarImg": "",
+    "sidebarDescription": "If you were denied a job because of your credit, it's likely because your credit history is unfavorable:",
+    "sidebarBullets": [
+      "Inconsistent bill payments may appear",
+      "You may have high amounts of debt",
+      "You may have on record a past bankruptcy or foreclosure"
+    ]
   },
   "bank-account": {
     "text": "I wanted to open a bank account",
-    "url": "bank-account"
+    "url": "bank-account",
+    "sidebarImg": "",
+    "sidebarDescription": "",
+    "sidebarBullets": [
+    ]
   },
   "credit-card": {
     "text": "I wanted to get a credit card",
-    "url": "credit-card"
+    "url": "credit-card",
+    "sidebarImg": "",
+    "sidebarDescription": "",
+    "sidebarBullets": [
+    ]
   },
   "personal-loan": {
     "text": "I wanted to get a personal loan",
@@ -50,10 +92,18 @@
   },
   "car-insurance": {
     "text": "I wanted to buy car insurance",
-    "url": "car-insurance"
+    "url": "car-insurance",
+    "sidebarImg": "",
+    "sidebarDescription": "",
+    "sidebarBullets": [
+    ]
   },
   "utilities": {
     "text": "I wanted to sign up for utilities",
-    "url": "utilities"
+    "url": "utilities",
+    "sidebarImg": "",
+    "sidebarDescription": "",
+    "sidebarBullets": [
+    ]
   }
 }

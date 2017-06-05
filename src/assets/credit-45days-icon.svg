@@ -6,7 +6,7 @@
         <mask id="b" fill="#fff">
             <use xlink:href="#a"/>
         </mask>
-        <g font-family="Poppins" font-weight="bold" letter-spacing=".292" mask="url(#b)">
+        <g font-family="Verdana" font-weight="bold" letter-spacing=".292" mask="url(#b)">
             <text font-size="36" transform="translate(16)">
                 <tspan x="10" y="40" fill="#5078FA">45</tspan>
             </text>

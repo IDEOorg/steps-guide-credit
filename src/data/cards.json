@@ -1,4 +1,49 @@
 {
+  "car": {
+    "cards": {
+
+    }
+  },
+  "apartment": {
+    "cards": {
+
+    }
+  },
+  "business": {
+    "cards": {
+
+    }
+  },
+  "school": {
+    "cards": {
+
+    }
+  },
+  "job": {
+    "cards": {
+
+    }
+  },
+  "bank-account": {
+    "cards": {
+
+    }
+  },
+  "credit-card": {
+    "cards": {
+
+    }
+  },
+  "car-insurance": {
+    "cards": {
+
+    }
+  },
+  "utilities": {
+    "cards": {
+
+    }
+  },
   "personal-loan": {
     "cards": {
       "1": {

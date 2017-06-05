@@ -9,7 +9,17 @@ import problemsData from '../../data/problems';
 
 const StatementsPage = (props) => {
   let statement = props.params.statement;
-  let sidebarImg = require('../../assets/' + problemsData[statement].sidebarImg);
+  let sidebarImg = problemsData[statement].sidebarImg;
+  let sidebar = null;
+  if(sidebarImg) {
+    sidebar = (
+      <SidebarEducation
+      sidebarImg={require('../../assets/' + sidebarImg)}
+      sidebarDescription={problemsData[statement].sidebarDescription}
+      sidebarBullets={problemsData[statement].sidebarBullets}
+    />);
+  }
+
   return (
     <div className="main_page">
       <div className="intro_main_section">
@@ -20,11 +30,7 @@ const StatementsPage = (props) => {
             props.goBack();
           }}
         />
-        <SidebarEducation
-          sidebarImg={sidebarImg}
-          sidebarDescription={problemsData[statement].sidebarDescription}
-          sidebarBullets={problemsData[statement].sidebarBullets}
-          />
+      { sidebar }
       </div>
       <CardsSection url={statement}/>
     </div>

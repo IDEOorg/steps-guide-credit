@@ -112,6 +112,12 @@
         "img": "credit-cosigner-icon.svg",
         "headline": "Consider getting a co-signer",
         "text": "A co-signer someone who signs for a loan with you and is obligated to pay back the loan if you're unable to. A co-signer can help you meet lender requirements for credit and income and increases your chances of getting approved for a loan."
+      },
+      {
+        "id": "3",
+        "img": "credit-builder-icon.png",
+        "headline": "Consider a credit-builder loan",
+        "text": "Credit-builder loans are small loans issued by credit unions and some banks, designed to help people establish or boost their credit history."
       }
     ]
   },

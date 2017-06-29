@@ -13,11 +13,11 @@ const StatementsPage = (props) => {
   let sidebar = null;
   if(sidebarImg) {
     sidebar = (
-      <SidebarEducation
+    <SidebarEducation
       sidebarImg={require('../../assets/' + sidebarImg)}
       sidebarDescription={problemsData[statement].sidebarDescription}
-      sidebarBullets={problemsData[statement].sidebarBullets}
-    />);
+    />
+    );
   }
 
   return (

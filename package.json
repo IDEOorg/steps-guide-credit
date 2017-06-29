@@ -1,7 +1,7 @@
 {
-  "name": "housing-guide",
+  "name": "credit-guide",
   "version": "0.1.0",
-  "description": "Guidical #3",
+  "description": "Guide on improving credit",
   "engines": {
     "npm": ">=3"
   },
@@ -30,6 +30,7 @@
   "license": "MIT",
   "dependencies": {
     "classnames": "2.2.5",
+    "marked": "0.3.6",
     "object-assign": "4.1.0",
     "react": "15.4.1",
     "react-dom": "15.4.1",

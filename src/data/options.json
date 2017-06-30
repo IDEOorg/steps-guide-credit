@@ -6,7 +6,7 @@
         "id": "1",
         "img": "credit-nfcc-icon.svg",
         "headline": "Talk to a NFCC Certified Credit Counselor",
-        "text": "If you can't pay your blls on time consistently each month, then you may want to get personalized advice from a counselor",
+        "text": "If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor",
         "addendum": {
           "addendumHeadline": "Your Payment History",
           "addendumText": "The biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are."
@@ -103,7 +103,7 @@
         "id": "2",
         "img": "credit-cosigner-icon.svg",
         "headline": "Consider getting a co-signer",
-        "text": "A co-signer someone who signs for a loan with you and is obligated to pay back the loan if you're unable to. A co-signer can help you meet lender requirements for credit and income and increases your chances of getting approved for a loan."
+        "text": "A co-signer is someone who signs for a loan with you and is obligated to pay back the loan if you're unable to. A co-signer can help you meet lender requirements for credit and income and increases your chances of getting approved for a loan."
       },
       {
         "id": "3",
@@ -119,8 +119,8 @@
       {
         "id": "1",
         "img": "credit-clipboard-icon.svg",
-        "headline": "Get your free credit report at Annualcreditreport.com",
-        "text": "Annualcreditreport.com is jointly operated by the three major credit reporting agencies, Equifax, Experian, and Transunion. Consumers are able to receive up to three free credit reports per year.",
+        "headline": "Get your free credit report at annualcreditreport.com",
+        "text": "annualcreditreport.com is jointly operated by the three major credit reporting agencies, Equifax, Experian, and Transunion. Consumers are able to receive up to three free credit reports per year.",
         "link": {
           "text": "ANNUALCREDITREPORT.COM",
           "url": "https://www.annualcreditreport.com"
@@ -129,8 +129,8 @@
       {
         "id": "2",
         "img": "credit-report-icon.svg",
-        "headline": "Check your report for errors",
-        "text": "Some common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors."
+        "headline": "Errors commonly show up on credit reports",
+        "text": "Some common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors. "
       },
       {
         "id": "3",

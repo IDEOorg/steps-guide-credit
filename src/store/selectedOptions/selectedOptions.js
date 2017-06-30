@@ -74,13 +74,8 @@ const selectedOptions = (state = {}, action) => {
   switch (action.type) {
     case GENERATE_OPTIONS: {
       let cards = action.cards;
-      console.log(cards);
-      console.log('HOUSE OF CARDS');
       let distinctOptionIds = [];
-      if(getCardFromCards(cards, "1") && (!getCardFromCards(cards, "2") || !getCardFromCards(cards, "4") || !getCardFromCards(cards, "7") || !getCardFromCards(cards, "8"))) {
-        addOptionIfUnique(distinctOptionIds, "2");
-      }
-      else {
+      if(!(getCardFromCards(cards, "1") && (!getCardFromCards(cards, "2") || !getCardFromCards(cards, "4") || !getCardFromCards(cards, "7") || !getCardFromCards(cards, "8")))) {
         addOptionIfUnique(distinctOptionIds, "1");
       }
       if(getCardFromCards(cards, "2")) {
@@ -104,15 +99,12 @@ const selectedOptions = (state = {}, action) => {
       if(getCardFromCards(cards, "8")) {
         addOptionIfUnique(distinctOptionIds, "7");
       }
-      console.log('ddd');
-      console.log(distinctOptionIds);
       let distinctOptions = distinctOptionIds.map((id) => {
         return {
           id,
           tried: false
         };
       });
-      console.log('distinctOptions');
       return {
         currentOption: distinctOptionIds[0],
         options: distinctOptions

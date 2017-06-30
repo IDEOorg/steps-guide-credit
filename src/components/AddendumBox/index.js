@@ -5,10 +5,10 @@ import './index.less';
 const AddendumBox = (props) => {
   return (
     <div className="addendum_box">
-      <div className="addendum_img">
-        <img src={props.img} />
-      </div>
       <div className="addendum_text_box">
+        <p className="addendum_headline">
+          { props.headline }
+        </p>
         <p className="addendum_text">
           {props.text}
         </p>
@@ -21,7 +21,7 @@ export default AddendumBox;
 
 AddendumBox.propTypes = {
   text: PropTypes.string.isRequired,
-  img: PropTypes.string.isRequired
+  headline: PropTypes.string
 };
 
 AddendumBox.displayName = 'AddendumBox';

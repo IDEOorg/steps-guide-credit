@@ -1,33 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="484" viewBox="0 0 320 484">
+<svg xmlns="http://www.w3.org/2000/svg" width="603" height="363" viewBox="0 0 603 363">
     <g fill="none" fill-rule="evenodd">
-        <g transform="translate(-43)">
-            <ellipse cx="112.562" cy="112.569" fill="#5078FA" rx="112.562" ry="112.569"/>
-            <text fill="#FFF" font-family="Verdana" font-size="14.4" font-weight="500">
-                <tspan x="71.489" y="107.718">Payment </tspan> <tspan x="79.43" y="125.718">history</tspan>
+        <g transform="translate(0 16)">
+            <circle cx="125" cy="125" r="125" fill="#5078FA"/>
+            <text fill="#FFF" font-family="Verdana, Poppins-SemiBold, Poppins" font-size="16" font-weight="500">
+                <tspan x="79.363" y="120.4">Payment </tspan> <tspan x="88.187" y="140.4">history</tspan>
             </text>
         </g>
-        <g transform="translate(173 79)">
-            <ellipse cx="104.458" cy="104.464" fill="#5485F9" rx="104.458" ry="104.464"/>
-            <text fill="#FFF" font-family="Verdana" font-size="14.4" font-weight="500">
-                <tspan x="74.101" y="99.613">Credit </tspan> <tspan x="76.737" y="117.613">owed</tspan>
+        <g transform="translate(371)">
+            <circle cx="116" cy="116" r="116" fill="#5485F9"/>
+            <text fill="#FFF" font-family="Verdana, Poppins-SemiBold, Poppins" font-size="16" font-weight="500">
+                <tspan x="82.271" y="111.4">Credit </tspan> <tspan x="85.199" y="131.4">owed</tspan>
             </text>
         </g>
-        <g transform="translate(39 335)">
-            <ellipse cx="73.841" cy="73.845" fill="#FFF" stroke="#E4E4E4" stroke-width=".9" rx="73.841" ry="73.845"/>
-            <text fill="#5485F9" font-family="Verdana" font-size="12.6" letter-spacing=".263" opacity=".7">
-                <tspan x="16.088" y="69.277">Length of credit </tspan> <tspan x="45.122" y="86.377">history</tspan>
+        <g transform="translate(232 146)">
+            <circle cx="82" cy="82" r="82" fill="#FFF" stroke="#E4E4E4"/>
+            <text fill="#5485F9" font-family="Verdana, Poppins-Regular, Poppins" font-size="14" letter-spacing=".292" opacity=".7">
+                <tspan x="17.685" y="77.936">Length of credit </tspan> <tspan x="50.09" y="96.936">history</tspan>
             </text>
         </g>
-        <g transform="translate(176 288.171)">
-            <ellipse cx="60.333" cy="60.337" fill="#FFF" stroke="#E4E4E4" stroke-width=".9" rx="60.333" ry="60.337"/>
-            <text fill="#5485F9" font-family="Verdana" font-size="12.6" letter-spacing=".263" opacity=".7">
-                <tspan x="18.814" y="64.774">New credit</tspan>
+        <g transform="translate(385 228)">
+            <circle cx="67" cy="67" r="67" fill="#FFF" stroke="#E4E4E4"/>
+            <text fill="#5485F9" font-family="Verdana, Poppins-Regular, Poppins" font-size="14" letter-spacing=".292" opacity=".7">
+                <tspan x="20.868" y="72.936">New credit</tspan>
             </text>
         </g>
-        <g transform="translate(75 214)">
-            <ellipse cx="60.333" cy="60.337" fill="#FFF" stroke="#E4E4E4" stroke-width=".9" rx="60.333" ry="60.337"/>
-            <text fill="#5485F9" font-family="Verdana" font-size="12.6" letter-spacing=".263" opacity=".7">
-                <tspan x="34.288" y="55.769">Types </tspan> <tspan x="26.222" y="72.869">of credit</tspan>
+        <g transform="translate(240 11)">
+            <circle cx="67" cy="67" r="67" fill="#FFF" stroke="#E4E4E4"/>
+            <text fill="#5485F9" font-family="Verdana, Poppins-Regular, Poppins" font-size="14" letter-spacing=".292" opacity=".7">
+                <tspan x="37.915" y="62.936">Types </tspan> <tspan x="29.098" y="81.936">of credit</tspan>
             </text>
         </g>
     </g>

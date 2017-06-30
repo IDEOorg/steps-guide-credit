@@ -5,6 +5,7 @@ import Button from '../Button';
 import ZipcodeBox from '../ZipcodeBox';
 import CriteriaBox from '../CriteriaBox';
 import AddendumBox from '../AddendumBox';
+import FullPageBox from '../FullPageBox';
 import UrlImage from '../UrlImage';
 import classNames from 'classnames';
 import './index.less';
@@ -43,10 +44,17 @@ const ActionPlan = (props) => {
     }
     else if(action.addendum) {
       actionItem = (<AddendumBox
-        img={require('../../assets/' + action.addendum.addendumImg)}
         text={action.addendum.addendumText}
+        headline={action.addendum.addendumHeadline}
         />
       );
+    }
+    else if(action.fullPage) {
+      actionItem = (<FullPageBox
+        textBegin={action.fullPage.textBegin}
+        textEnd={action.fullPage.textEnd}
+        img={action.fullPage.img ? require('../../assets/' + action.fullPage.img) : null}
+      />)
     }
     else {
       actionItem = null;

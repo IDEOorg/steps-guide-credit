@@ -3,6 +3,15 @@ import PropTypes from 'prop-types';
 import './index.less';
 
 const Action = (props) => {
+  if(!props.img) {
+    return (
+      <div className="action">
+        <div className="action_form">
+          {props.children}
+        </div>
+      </div>
+    )
+  }
   return (
     <div className="action">
       <div className="action_capsule">

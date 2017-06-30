@@ -8,23 +8,8 @@
         "headline": "Talk to a NFCC Certified Credit Counselor",
         "text": "If you can't pay your blls on time consistently each month, then you may want to get personalized advice from a counselor",
         "addendum": {
-          "addendumImg": "credit-payment-history-icon.svg",
+          "addendumHeadline": "Your Payment History",
           "addendumText": "The biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are."
-        }
-      }
-    ]
-  },
-  "2": {
-    "text": "Great job!",
-    "actions": [
-      {
-        "id": "1",
-        "img": null,
-        "headline": null,
-        "text": null,
-        "addendum": {
-          "addendumImg": "credit-goodjob-icon.svg",
-          "addendumText": "Paying your credit bills on time, consistently each month is no small feat. Payment history accounts for the majority of your credit score so keep up the good work."
         }
       }
     ]
@@ -35,8 +20,12 @@
       {
         "id": "1",
         "img": "credit-owed-icon.svg",
-        "headline": "Credit owed",
-        "text": "An important factor that affects your credit score is how much your available credit you actually use between all your card, which is also known as credit utilization.\nExample: Your credit card has a $1000 limit. You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%."
+        "headline": "Understand credit owed",
+        "text": "An important factor that affects your credit score is how much your available credit you actually use between all your card, which is also known as credit utilization.",
+        "addendum": {
+          "addendumHeadline": "Example",
+          "addendumText": "Your credit card has a $1000 limit.\n\n You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%."
+        }
       },
       {
         "id": "2",
@@ -57,13 +46,16 @@
     ]
   },
   "4": {
-    "text": "Check your credit score",
+    "text": "Your credit score matters",
     "actions": [
       {
         "id": "1",
-        "img": "credit-bubbleplot-icon.svg",
-        "headline": null,
-        "text": "Your credit score is a three-digit number based on your credit report. Most of your credit score is based on you paying your bills on time (payment history) and how much you borrow and owe (credit utilization). The first step to improving your score is by understanding where you are and where to focus you efforts on. Check your credit score for free at these places:"
+        "img": null,
+        "fullPage": {
+          "textBegin": "Your credit score is a three-digit number based on your credit report. Most of your credit score is based on how you pay it off (payment history) and on how much you borrow (credit owed).",
+          "textEnd": "The first step to to improving your score is by understanding where you are and where to focus you efforts on. Check your credit score for free at these places:",
+          "img": "credit-bubbleplot-icon.svg"
+        }
       },
       {
         "id": "2",
@@ -143,8 +135,12 @@
       {
         "id": "3",
         "img": "credit-dispute-icon.svg",
-        "headline": "Dispute errors",
-        "text": "Keep records of your correspondences and contact the relevant credit reporting agency to report any errors."
+        "headline": "If there's an error, dispute it",
+        "text": "Keep records of your correspondences and contact the relevant credit reporting agency to report any errors.",
+        "addendum": {
+          "addendumHeadline": "Follow Up",
+          "addendumText": "It usually takes credit unions 30 to 45 days to process disputes. If you haven’t heard from them by day 45, be sure to follow up with them."
+        }
       },
       {
         "id": "4",

@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.options_intro_headline {
+h1.options_intro_headline {
   font-size: 1.5em;
   letter-spacing: -0.02083333333em;
   line-height: 1.875rem;
@@ -24,32 +24,29 @@
     order: 1;
   });
 }
+
 .options_intro_back {
   text-align: center;
-  font-size: 1.0625em;
-  font-weight: 400;
-  letter-spacing: 0.01875em;
   width: 100%;
-  text-align: center;
-  color: @base-blue;
+  p {
+    font-size: 1.0625em;
+    font-weight: 400;
+    letter-spacing: 0.01875em;
+    text-align: center;
+    .mobile({
+      color: fade(@text-color, 30%) !important;
+    });
+    .desktop({
+      color: @base-blue !important;
+      &:hover {
+        color: fade(@base-blue, 85%) !important;
+      }
+    });
+  }
   .mobile({
     order: 1;
   });
   .desktop({
     order: 2;
   });
-}
-
-.options_intro_back {
-  p {
-    color: @base-blue;
-    .mobile({
-      color: @base-blue;
-    });
-    .desktop({
-      &:hover {
-        color: fade(@base-blue, 85%);
-      }
-    });
-  }
 }

@@ -20,7 +20,7 @@
     width: 80%;
     margin: 0 auto;
   }
-  .option_headline {
+  h2.option_headline {
     color: @base-blue;
     font-size: 1.25em;
     font-weight: 600;
@@ -43,10 +43,10 @@
     }
   }
   .option_tried_link {
-    color: fade(@text-color, 30%);
+    color: fade(@text-color, 30%) !important;
     .desktop({
       &:hover {
-        color: fade(@text-color, 70%);
+        color: fade(@text-color, 70%) !important;
       }
     });
   }

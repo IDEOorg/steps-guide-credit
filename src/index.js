@@ -16,5 +16,5 @@ ReactDOM.render(
   <Provider store={store}>
     <Routes history={history} />
   </Provider>,
-  document.getElementById('steps-guide-housing')
+  document.getElementById('steps-guide-credit')
 );

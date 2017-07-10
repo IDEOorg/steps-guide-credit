@@ -70,17 +70,17 @@
       {
         "id": "3",
         "img": "credit-bank-icon.svg",
-        "headline": "Find a Bank or Credit Union that provides free FICO scores",
+        "headline": "Find a bank or credit union that provides free FICO scores",
         "text": "The Consumer Financial Protection Bureau has a great list of companies that provide free access to credit scores (although you might need to sign up for an account of some kind).",
         "link": {
-          "text": "DOWNLOAD PDF FROM CFPB",
+          "text": "DOWNLOAD PDF FROM CONSUMERFINANCE.GOV",
           "url": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201702_cfpb_finding-free-access-to-credit-score_handout.pdf"
         }
       }
     ]
   },
   "5": {
-    "text": "Make a request to lenders",
+    "text": "Understand why you were denied",
     "actions": [
       {
         "id": "1",
@@ -97,7 +97,11 @@
         "id": "1",
         "img": "credit-card-icon.svg",
         "headline": "Apply for a secured credit card",
-        "text": "A secured credit card gives you access to credit by first putting down a cash deposit that matches your credit. This reduces the risk to a credit card issuer. Using the card responsibly can eventually give you access to an unsecured card i.e. one that doesn't require a deposit and shows a healthy history of financial habits."
+        "text": "A secured credit card gives you access to credit by first putting down a cash deposit that matches your credit. This reduces the risk to a credit card issuer. Using the card responsibly can eventually give you access to an unsecured card i.e. one that doesn't require a deposit and shows a healthy history of financial habits.",
+        "addendum": {
+          "addendumHeadline": "Be Responsible",
+          "addendumText": "For example: If you put down a $500 deposit, you would receive a $500 credit limit. To build a healthy credit history, try not to have a balance of more than $150 (or 30%) at any time. And, pay the bill on time every single month."
+        }
       },
       {
         "id": "2",
@@ -114,7 +118,7 @@
     ]
   },
   "7": {
-    "text": "Check your credit report",
+    "text": "Check your credit report for errors",
     "actions": [
       {
         "id": "1",
@@ -129,8 +133,12 @@
       {
         "id": "2",
         "img": "credit-report-icon.svg",
-        "headline": "Errors commonly show up on credit reports",
-        "text": "Some common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors."
+        "headline": "Errors are fairly common on credit reports",
+        "text": "Some common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors. Visit the Consumer Financial Protection Bureau (CFPB)for more information.",
+        "link": {
+          "text": "VISIT CONSUMERFINANCE.GOV",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-common-credit-report-errors-that-i-should-look-for-on-my-credit-report-en-313"
+        }
       },
       {
         "id": "3",
@@ -151,16 +159,16 @@
     ]
   },
   "8": {
-    "text": "Use a credit score simulator",
+    "text": "Go check a credit simulator",
     "actions": [
       {
         "id": "1",
-        "img": "nerdwallet-logo.svg",
-        "headline": "Use NerdWallet's credit simulator",
-        "text": "A credit simulator can help you understand how financial decisions impact your credit score.",
+        "img": "credit-simulator-icon.svg",
+        "headline": "Go check a credit simulator",
+        "text": "A credit simulator can help you understand how financial decisions impact your credit score. It’s free to sign up and play around Credit Karma's.",
         "link": {
-          "text": "GO TO NERDWALLET.COM",
-          "url": "https://www.nerdwallet.com/blog/finance/credit-score-simulator/"
+          "text": "GO TO CREDITKARMA.COM",
+          "url": "https://www.creditkarma.com/tools/credit-score-simulator"
         }
       }
     ]

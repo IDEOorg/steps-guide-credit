@@ -1,6 +1,6 @@
 # Steps Housing Guide
 
-The Steps Housing Guide is an open sourced resource for anyone to use. This resource provides a personalized experience for low-income people to explore actions they can take when they can't pay rent. The guide can be viewed at https://ideoorg.github.io/steps-guide-housing.
+The Steps Housing Guide is an open sourced resource for anyone to use. This resource provides a personalized experience for low-income people to explore actions they can take when they can't pay rent. The guide can be viewed at https://ideoorg.github.io/steps-guide-credit.
 
 ## Getting Started
 
@@ -8,8 +8,8 @@ The Steps Housing Guide is an open sourced resource for anyone to use. This reso
 
 
 #### Running the code on your own local environment
-1. `git clone https://github.com/IDEOorg/steps-guide-housing`
-2. `cd steps-guide-housing`
+1. `git clone https://github.com/IDEOorg/steps-guide-credit`
+2. `cd steps-guide-credit`
 3. `npm install`
 4. Running the code on your server:
   * **To run the development build:**

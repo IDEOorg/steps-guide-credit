@@ -1,11 +1,14 @@
 @import '../../globals/constants.less';
+@import '../../globals/responsive.less';
 
 .sidebar_education_box {
-  padding: 5% 2em;
+  padding: 5% 2em 3.125rem 2em;
   p {
     color: @text-color;
   }
-  border-bottom: 1px solid #dcddde;
+  .desktop({
+    border-bottom: 1px solid #dcddde;
+  });
 }
 
 .sidebar_content

@@ -2,7 +2,7 @@
   "car": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -38,7 +38,7 @@
   "apartment": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -74,7 +74,7 @@
   "business": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -110,7 +110,7 @@
   "school": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -146,43 +146,7 @@
   "job": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
-        "options": []
-      },
-      "2": {
-        "text": "I have used a lot of my credit",
-        "options": []
-      },
-      "3": {
-        "text": "I'm just getting started with credit",
-        "options": []
-      },
-      "4": {
-        "text": "I don't know what my credit score is",
-        "options": []
-      },
-      "5": {
-        "text": "I have some kind of loan or mortgage",
-        "options": []
-      },
-      "6": {
-        "text": "I have some kind of credit card",
-        "options": []
-      },
-      "7": {
-        "text": "I wasn't given an explanation as to why I wasn't approved",
-        "options": []
-      },
-      "8": {
-        "text": "I haven't checked my credit report this year",
-        "options": []
-      }
-    }
-  },
-  "bank-account": {
-    "cards": {
-      "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -218,7 +182,7 @@
   "credit-card": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -254,7 +218,7 @@
   "car-insurance": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -290,7 +254,7 @@
   "utilities": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -326,7 +290,7 @@
   "personal-loan": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {
@@ -362,7 +326,7 @@
   "house": {
     "cards": {
       "1": {
-        "text": "I pay my credit bills on time, consistently each month",
+        "text": "I pay all of my bills on time, consistently, every month",
         "options": []
       },
       "2": {

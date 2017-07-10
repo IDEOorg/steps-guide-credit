@@ -8,8 +8,8 @@ The Steps Credit Guide is an open sourced resource for anyone to use. This resou
 1. Go to the [/dist](/dist) folder. You should see three files with the extension .html, .js, .css.
 2. If you'd like this guide on a separate page by itself, simply copy the three files into the same folder. Then open the index.html page with your favorite browser.
 3. If you'd like this guide embedded inside of your own website template, include the following snippet of code into the section of the html file where you wish to display the guide: `<div id="steps-guide-credit"></div>`
-4. Then right before the end `</body>` tag (after all other code), insert this `<script type="text/javascript" src="main.4f7e1fa262a59665d8e4.js"></script>`
-5. Right before the end `</head>` tag (after all other stylesheets), insert this `<link href="main.dd79a06527fd58ee7f66bfc3d7e1f367.css" rel="stylesheet">`
+4. Then right before the end `</body>` tag (after all other code), insert this `<script type="text/javascript" src="main.8126ebf393f673c74962.js"></script>`
+5. Right before the end `</head>` tag (after all other stylesheets), insert this `<link href="main.ab39dfe27bf232e0189d0519ef80c9e6.css" rel="stylesheet">`
 
 #### Running the code on your own local environment
 1. `git clone https://github.com/IDEOorg/steps-guide-credit`

@@ -1,6 +1,6 @@
-# Steps Housing Guide
+# Steps Credit Guide
 
-The Steps Housing Guide is an open sourced resource for anyone to use. This resource provides a personalized experience for low-income people to explore actions they can take when they can't pay rent. The guide can be viewed at https://ideoorg.github.io/steps-guide-credit.
+The Steps Credit Guide is an open sourced resource for anyone to use. This resource provides a personalized experience for low-income people to explore actions they can take to improve their credit. The guide can be viewed at https://ideoorg.github.io/steps-guide-credit.
 
 ## Getting Started
 

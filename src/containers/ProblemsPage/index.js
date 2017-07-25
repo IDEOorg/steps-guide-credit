@@ -6,7 +6,7 @@ const introImg = require('../../assets/credit-icon.gif');
 class ProblemsPage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {lang: 'es'};
+    this.state = {lang: 'en'};
   }
   render() {
     let headline = null;
@@ -22,8 +22,8 @@ class ProblemsPage extends React.Component {
     return (
       <div className="main_page">
         <div style={{position: "absolute", left: "165px"}}>
-          <p onClick={() => {this.setState({lang: 'en'})}} style={this.state.lang === 'en' ? {float: "left", margin: "15px", color: "rgb(84, 149, 249)"} : {float: "left", margin: "15px", color: "gray", cursor: "pointer"}}>English</p>
-          <p onClick={() => {this.setState({lang: 'es'})}} style={this.state.lang === 'es' ? {float: "left", margin: "15px", color: "rgb(84, 149, 249)"} : {float: "left", margin: "15px", color: "gray", cursor: "pointer"}}>Español</p>
+          <p className="translation_temp" onClick={() => {this.setState({lang: 'en'})}} style={this.state.lang === 'en' ? {float: "left", margin: "15px", color: "rgb(84, 149, 249)"} : {float: "left", margin: "15px", color: "gray", cursor: "pointer"}}>English</p>
+          <p className="translation_temp" onClick={() => {this.setState({lang: 'es'})}} style={this.state.lang === 'es' ? {float: "left", margin: "15px", color: "rgb(84, 149, 249)"} : {float: "left", margin: "15px", color: "gray", cursor: "pointer"}}>Español</p>
         </div>
         <div className="intro_main_section">
           <img className="intro_image" src={introImg}/>
